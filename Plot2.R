@@ -21,9 +21,6 @@ data_final<-cbind(datetime, df)
 
 
 #Plot
-?plot
-?strptime
-
 
 png(file=".//Plot2.png")
 plot(data_final$datetime,data_final$Global_active_power, type="l", xlab="",ylab="Global Active Power (kilowatts)")
